@@ -63,7 +63,7 @@ class _ScrollPositionIndicatorFABState
           ),
           const CircleAvatar(
             radius: 25,
-            backgroundColor: Colors.black, // FAB background color
+            backgroundColor:donJuan, // FAB background color
             child: Icon(
               Icons.arrow_upward,
               color: studio,

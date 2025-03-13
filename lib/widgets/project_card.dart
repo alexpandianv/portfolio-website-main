@@ -42,17 +42,19 @@ class _ProjectCardState extends State<ProjectCard> {
               ),
               child: Stack(
                 children: [
-                  Container(
-                    margin: const EdgeInsets.all(40),
-                    decoration: BoxDecoration(borderRadius: const BorderRadius.all(Radius.circular(33)),
-                      image: DecorationImage(
-                        image: AssetImage(
-                          widget.project.imageUrl,
-                        ),
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                  ),
+                 AspectRatio(
+  aspectRatio: 1, // 1 for a square, change as needed for other ratios
+  child: Container(
+    margin: const EdgeInsets.all(40),
+    decoration: BoxDecoration(
+      borderRadius: const BorderRadius.all(Radius.circular(33)),
+      image: DecorationImage(
+        image: AssetImage(widget.project.imageUrl),
+        fit: BoxFit.cover,
+      ),
+    ),
+  ),
+),
                   Align(
                     alignment: Alignment.bottomCenter,
                     child: AnimatedContainer(
@@ -125,7 +127,7 @@ class _ProjectCardState extends State<ProjectCard> {
                                 ],
                               ),
                             ),
-                            // Expanded(
+                           
                             //   child: Row(
                             //     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             //     children: [
@@ -186,21 +188,25 @@ class _ProjectCardState extends State<ProjectCard> {
                   width: width() * 0.07,
                   decoration: BoxDecoration(
                     color: white.withAlpha(198),
+                    
                     borderRadius: BorderRadius.circular(28),
                   ),
                   child: Stack(
                     children: [
-                      Container(
-                        margin: const EdgeInsets.all(35),
-                        decoration: BoxDecoration(
-                          image: DecorationImage(
-                            image: AssetImage(
-                              widget.project.imageUrl,
-                            ),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
+                     AspectRatio(
+  aspectRatio: 1, // 1 for a square, change as needed for other ratios
+  child: Container(
+    margin: const EdgeInsets.all(40),
+    decoration: BoxDecoration(
+      borderRadius: const BorderRadius.all(Radius.circular(33)),
+      image: DecorationImage(
+        image: AssetImage(widget.project.imageUrl),
+        fit: BoxFit.cover,
+      ),
+    ),
+  ),
+)
+,
                       Align(
                         alignment: Alignment.bottomCenter,
                         child: AnimatedContainer(
