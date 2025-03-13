@@ -122,16 +122,14 @@ class _ContactMeSectionState extends State<ContactMeSection> {
             ),
             verticalSpace(0.1),
             Text(
-              "© 2025 All Rights Reserved by Alexpandian Olatubosun",
+              "© 2025 All Rights Reserved by AlexCodeX",
               style: TextStyles.style16regular,
               textAlign: TextAlign.center,
             ),
             verticalSpace(0.02),
           ],
         )
-
-        // width() > 950
-        //     ? Row(
+      
         //         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         //         children: [
         //           Container(
@@ -436,24 +434,4 @@ class _ContactMeSectionState extends State<ContactMeSection> {
         );
   }
 
-  // Future<void> sendEmail({
-  //   required String recipientEmail,
-  //   required String subject,
-  //   required String body,
-  // }) async {
-  //   final Uri emailUri = Uri(
-  //     scheme: 'mailto',
-  //     path: recipientEmail,
-  //     queryParameters: {
-  //       'subject': subject,
-  //       'body': body,
-  //     },
-  //   );
-
-  //   if (await canLaunchUrl(emailUri)) {
-  //     await launchUrl(emailUri);
-  //   } else {
-  //     throw Exception('Could not launch email client');
-  //   }
-  // }
 }

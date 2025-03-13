@@ -14,7 +14,7 @@ class DownloadCVButton extends StatelessWidget {
     return GestureDetector(
       onTap: () async {
         const url =
-            'https://docs.google.com/document/d/1RjeIMeZAW9A-J0H7TwzMQ7uKAiL88Z0Q_zQ5MG-tt8Q/export?format=pdf';
+            'https://drive.google.com/file/d/1G7O7s1Q40oLA666FdW1vsBVW5Kn_4e_n/view?usp=sharing';
         if (await canLaunchUrl(Uri.parse(url))) {
           await launchUrl(Uri.parse(url));
         } else {
@@ -27,7 +27,7 @@ class DownloadCVButton extends StatelessWidget {
         decoration: BoxDecoration(
             color: Colors.transparent,
             borderRadius: BorderRadius.circular(20),
-            border: Border.all(color: paleSlate)),
+            border: Border.all(color: white)),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -40,7 +40,7 @@ class DownloadCVButton extends StatelessWidget {
             ),
             const FaIcon(
               FontAwesomeIcons.download,
-              color: paleSlate,
+              color: white,
               size: 18,
             )
           ],
