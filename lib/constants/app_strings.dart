@@ -1,6 +1,12 @@
 class AppString {
-  static const aboutMe =
-      '''I'm Alexpandian Daniel Olatubosun, a Flutter Mobile Developer with over 4 years of experience crafting iOS and Android applications. I've worked on impactful projects across industries, including MoniMoore, a financial app empowering users to manage their finances efficiently, and Kunda Kids, a gamified children's learning app.
+  static const aboutMe = '''
+Hi, I'm Alexpandian V, a dedicated Flutter Developer since 2022, specializing in building robust and user-friendly mobile applications. I am passionate about crafting high-performance, scalable apps using Flutter, focusing on seamless user experiences and efficient state management with GetX and Provider. I've contributed to multiple successful projects, including eCommerce apps, ERP systems, and service management solutions. My expertise includes payment gateway integrations (Razorpay), inventory management, real-time tracking, and enhancing app performance and UI/UX. I am passionate about solving complex problems through clean and efficient code. I'm continuously learning and exploring new technologies to deliver innovative and scalable solutions.
 
-Skilled in Flutter/Dart, Firebase, and state management architectures (BLoC, GetX, Provider), I deliver robust, scalable apps with clean architecture and exceptional user experiences. From GPS tracking and real-time video calls to secure payment integrations, I specialize in turning ideas into seamless, user-focused solutions.''';
+What I Do:
+- Build robust eCommerce apps with seamless Razorpay integration for secure payments.
+- Optimize Sales, Hotel Billing, KOT, and ERP systems to streamline business operations.
+- Integrate API services, Firebase, and IoT devices for smarter, connected apps.
+- Master state management using GetX, Provider, and BLoC for efficient data flow.
+- Deploy apps to both Google Play Store and App Store, ensuring a smooth user journey.
+''';
 }

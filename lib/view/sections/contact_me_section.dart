@@ -63,7 +63,7 @@ class _ContactMeSectionState extends State<ContactMeSection> {
                 ),
                 horizontalSpaceMedium(),
                 Text(
-                  "odapo138@gmail.com",
+                  "alexkingvengat@gmail.com",
                   style: TextStyles.style24extrabold,
                 ),
                 horizontalSpaceMedium(),
@@ -71,7 +71,7 @@ class _ContactMeSectionState extends State<ContactMeSection> {
                   onTap: () {
                     Clipboard.setData(
                       const ClipboardData(
-                        text: "odapo138@gmail.com",
+                        text: "alexkingvengat@gmail.com",
                       ),
                     );
                   },
@@ -98,7 +98,7 @@ class _ContactMeSectionState extends State<ContactMeSection> {
                 ),
                 horizontalSpaceMedium(),
                 Text(
-                  "+(234) 702 5214 514",
+                  "+91 89409 39434",
                   style: TextStyles.style24extrabold,
                 ),
                 horizontalSpaceMedium(),
@@ -106,7 +106,7 @@ class _ContactMeSectionState extends State<ContactMeSection> {
                   onTap: () {
                     Clipboard.setData(
                       const ClipboardData(
-                        text: "+(234) 702 5214 514",
+                        text: "+91 8940939434",
                       ),
                     );
                   },

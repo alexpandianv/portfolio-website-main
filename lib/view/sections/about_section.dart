@@ -31,17 +31,7 @@ class AboutSection extends StatelessWidget {
                       height: width() * 0.25,
                       width: width() * 0.25,
                     ),
-                    // Container(
-                    //   height: imageHeight,
-                    //   width: width() * 0.25,
-                    //   decoration: BoxDecoration(
-                    //     borderRadius: BorderRadius.circular(20),
-                    //     image: const DecorationImage(
-                    //       image: AssetImage("assets/images/profile_new.jpg"),
-                    //       fit: BoxFit.cover,
-                    //     ),
-                    //   ),
-                    // ),
+                 
                     SizedBox(
                       width: width() * 0.4,
                       child: Text(
@@ -57,19 +47,7 @@ class AboutSection extends StatelessWidget {
                       height: width() * 0.6,
                       width: width() * 0.6,
                     ),
-                    // Container(
-                    //   height: height() * 0.3,
-                    //   width: width() * 0.6,
-                    //   decoration: BoxDecoration(
-                    //     borderRadius: BorderRadius.circular(20),
-                    //     image: const DecorationImage(
-                    //       image: AssetImage(
-                    //         "assets/images/profile_new.jpg",
-                    //       ),
-                    //       fit: BoxFit.cover,
-                    //     ),
-                    //   ),
-                    // ),
+                    
                     verticalSpaceMedium(),
                     Text(
                       AppString.aboutMe,

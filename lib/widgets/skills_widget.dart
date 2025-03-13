@@ -47,7 +47,7 @@ class _SkillWidgetState extends State<SkillWidget> {
                     horizontal: 40,
                   ),
                   decoration: BoxDecoration(
-                    color: _isVisible ? studio.withOpacity(0.2) : revolver,
+                    color: _isVisible ? donJuan.withAlpha(22) : revolver,
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
                       color: _isVisible ? studio : revolver,
@@ -60,7 +60,7 @@ class _SkillWidgetState extends State<SkillWidget> {
                       Expanded(
                         child: ColorFiltered(
                           colorFilter: ColorFilter.mode(
-                            _isVisible ? Colors.transparent : Colors.grey,
+                            _isVisible ? Colors.white10 :donJuan,
                             BlendMode.srcATop,
                           ),
                           child: AnimatedContainer(
