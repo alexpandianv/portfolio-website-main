@@ -22,8 +22,10 @@ jobs:
     - name: Install dependencies
       run: flutter pub get
 
+    
     - name: Build Flutter web
-      run: flutter build web
+      run: flutter build web --base-href /portfolio-website-main/
+    
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
