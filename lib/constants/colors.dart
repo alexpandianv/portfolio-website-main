@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 const Color paleSlate = Color(0xFFccbdc5);
 const Color ebony = Color(0xFF2980B9);
-const Color studio = Color.fromARGB(255, 125, 79, 240);
+const Color studio =white;
 const Color valhalla = Color(0xFF6DD5FA);
 const Color donJuan = Color(0xFFdd3e54);
 const Color hippieBlue = Color(0xFF6998b6);

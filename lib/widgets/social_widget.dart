@@ -18,13 +18,13 @@ class SocialWidget extends StatelessWidget {
           decoration: BoxDecoration(
               color: Colors.transparent,
               shape: BoxShape.circle,
-              border: Border.all(color: studio.withOpacity(0.5))),
+              border: Border.all(color: white)),
           child: Center(
             child: IconButton(
               hoverColor: paleSlate,
               onPressed: () async {
                 const url =
-                    'https://www.linkedin.com/in/Alexpandiandanielolatubosun/';
+                    'https://www.linkedin.com/in/alexpandian008/';
                 if (await canLaunchUrl(Uri.parse(url))) {
                   await launchUrl(Uri.parse(url));
                 } else {
@@ -33,7 +33,7 @@ class SocialWidget extends StatelessWidget {
               },
               icon: const FaIcon(
                 FontAwesomeIcons.linkedinIn,
-                color: studio,
+                color: white,
                 size: 15,
               ),
             ),
@@ -48,12 +48,12 @@ class SocialWidget extends StatelessWidget {
           decoration: BoxDecoration(
               color: Colors.transparent,
               shape: BoxShape.circle,
-              border: Border.all(color: studio.withOpacity(0.5))),
+              border: Border.all(color:white)),
           child: Center(
             child: IconButton(
               hoverColor: paleSlate,
               onPressed: () async {
-                const url = 'https://github.com/Dapo-dan';
+                const url = 'https://github.com/alexpandianv';
                 if (await canLaunchUrl(Uri.parse(url))) {
                   await launchUrl(Uri.parse(url));
                 } else {
@@ -62,7 +62,7 @@ class SocialWidget extends StatelessWidget {
               },
               icon: const FaIcon(
                 FontAwesomeIcons.github,
-                color: studio,
+                color: white,
                 size: 15,
               ),
             ),
@@ -77,13 +77,13 @@ class SocialWidget extends StatelessWidget {
           decoration: BoxDecoration(
               color: Colors.transparent,
               shape: BoxShape.circle,
-              border: Border.all(color: studio.withOpacity(0.5))),
+              border: Border.all(color: white)),
           child: Center(
             child: IconButton(
               hoverColor: paleSlate,
               onPressed: () async {
                 const url =
-                    'https://www.upwork.com/freelancers/~01ef61a88d5ca9b18c';
+                    'https://www.upwork.com/freelancers/~01d65327e34c758e67?mp_source=share';
                 if (await canLaunchUrl(Uri.parse(url))) {
                   await launchUrl(Uri.parse(url));
                 } else {
@@ -92,7 +92,7 @@ class SocialWidget extends StatelessWidget {
               },
               icon: const FaIcon(
                 FontAwesomeIcons.upwork,
-                color: studio,
+                color: white,
                 size: 15,
               ),
             ),

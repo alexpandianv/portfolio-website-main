@@ -37,10 +37,10 @@ class AppButton extends StatelessWidget {
           border: Border.all(
             color: borderColor ?? Colors.transparent,
           ),
-          gradient: LinearGradient(
+          gradient: const LinearGradient(
             colors: [
               studio,
-              studio.withOpacity(0.5),
+              studio,
             ],
           ),
         ),

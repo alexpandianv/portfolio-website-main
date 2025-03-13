@@ -49,7 +49,7 @@ class _ResumeCardState extends State<ResumeCard> {
                 Text(
                   widget.date,
                   style: TextStyles.style18extrabold.copyWith(
-                    color: studio,
+                    color: valhalla,
                     fontSize: width() > 950
                         ? 18
                         : width() < 600

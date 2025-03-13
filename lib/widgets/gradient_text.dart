@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:porfolio/constants/colors.dart';
 import 'package:porfolio/constants/const.dart';
 import 'package:porfolio/constants/styles.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';

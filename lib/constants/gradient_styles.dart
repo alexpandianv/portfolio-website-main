@@ -14,8 +14,8 @@ class Styles {
   static const BoxDecoration drawerDecoration = BoxDecoration(
     gradient: LinearGradient(
       colors: [
-        studio,
         ebony,
+        valhalla,
       ],
     ),
   );

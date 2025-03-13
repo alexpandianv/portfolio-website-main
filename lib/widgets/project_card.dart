@@ -34,11 +34,11 @@ class _ProjectCardState extends State<ProjectCard> {
             onEnter: (_) => _onHover(true),
             onExit: (event) => _onHover(false),
             child: Container(
-              height: width() * 0.07,
+              height: width() * 0.08,
               width: width() * 0.07,
               decoration: BoxDecoration(
-                color: valhalla.withOpacity(0.8),
-                borderRadius: BorderRadius.circular(15),
+                color: white.withAlpha(198),
+                borderRadius: BorderRadius.circular(28),
               ),
               child: Stack(
                 children: [
@@ -59,11 +59,11 @@ class _ProjectCardState extends State<ProjectCard> {
                       margin: const EdgeInsets.all(10),
                       curve: Curves.linear,
                       duration: const Duration(milliseconds: 400),
-                      height: _isHovered ? height() * 0.1 : 0,
+                      height: _isHovered ? height() * 0.15 : 0,
                       width: width(), //_isHovered ? width() : 0,
                       decoration: BoxDecoration(
-                        color: studio,
-                        borderRadius: BorderRadius.circular(15),
+                        color: revolver,
+                        borderRadius: BorderRadius.circular(28),
                       ),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
@@ -182,11 +182,11 @@ class _ProjectCardState extends State<ProjectCard> {
               child: Transform.translate(
                 offset: _isVisible ? Offset.zero : const Offset(0, 20),
                 child: Container(
-                  height: width() * 0.07,
+                  height: width() * 0.08,
                   width: width() * 0.07,
                   decoration: BoxDecoration(
-                    color: valhalla.withOpacity(0.8),
-                    borderRadius: BorderRadius.circular(15),
+                    color: white.withAlpha(198),
+                    borderRadius: BorderRadius.circular(28),
                   ),
                   child: Stack(
                     children: [
@@ -207,11 +207,11 @@ class _ProjectCardState extends State<ProjectCard> {
                           margin: const EdgeInsets.all(10),
                           curve: Curves.linear,
                           duration: const Duration(milliseconds: 400),
-                          height: _isVisible ? height() * 0.1 : 0,
+                          height: _isVisible ? height() * 0.15: 0,
                           width: width(),
                           decoration: BoxDecoration(
-                            color: studio,
-                            borderRadius: BorderRadius.circular(15),
+                            color: revolver,
+                            borderRadius: BorderRadius.circular(28),
                           ),
                           child: Padding(
                             padding: const EdgeInsets.all(10.0),
