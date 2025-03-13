@@ -73,15 +73,12 @@ class _SkillWidgetState extends State<SkillWidget> {
                           ),
                         ),
                       ),
+
                       const SizedBox(height: 16),
                       Text(
                         "${(widget.percentage * 100).toInt()}%",
                         style: TextStyles.style16extrabold.copyWith(
-<<<<<<< HEAD
                           color: _isVisible ?  Colors.white : Colors.white,
-=======
-                          color: _isVisible ? studio : Colors.white,
->>>>>>> 9a7d205ec0ffb019e926eafb15402fdd2726f62c
                         ),
                       ),
                     ],
@@ -127,6 +124,7 @@ class _SkillWidgetState extends State<SkillWidget> {
                             _isHovered ? Colors.transparent : Colors.grey,
                             BlendMode.srcATop,
                           ),
+
                           child: AnimatedContainer(
                             width: _isHovered ? 120 : 100,
                             height: _isHovered ? 120 : 100,
@@ -141,11 +139,7 @@ class _SkillWidgetState extends State<SkillWidget> {
                       Text(
                         "${(widget.percentage * 100).toInt()}%",
                         style: TextStyles.style16extrabold.copyWith(
-<<<<<<< HEAD
                           color: _isHovered ? valhalla :white,
-=======
-                          color: _isHovered ? studio :white,
->>>>>>> 9a7d205ec0ffb019e926eafb15402fdd2726f62c
                         ),
                       ),
                     ],
