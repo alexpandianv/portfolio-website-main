@@ -35,7 +35,9 @@ flutter:
     - assets/fonts/
     - assets/icons/
     - assets/json/
+    - assets/images/narasus.jpg
     - assets/images/profile_new.jpg
+    
 
   fonts:
     - family: SpaceGrotesk

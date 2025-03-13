@@ -44,7 +44,7 @@ class _ProjectCardState extends State<ProjectCard> {
                 children: [
                   Container(
                     margin: const EdgeInsets.all(40),
-                    decoration: BoxDecoration(
+                    decoration: BoxDecoration(borderRadius: const BorderRadius.all(Radius.circular(33)),
                       image: DecorationImage(
                         image: AssetImage(
                           widget.project.imageUrl,
