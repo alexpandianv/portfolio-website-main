@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:porfolio/loading_page.dart';
 import 'package:porfolio/widgets/custom_scroll.dart';
 
+
 void main() {
   runApp(const MyApp());
 }
