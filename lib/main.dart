@@ -4,9 +4,11 @@ import 'package:porfolio/loading_page.dart';
 import 'package:porfolio/widgets/custom_scroll.dart';
 
 
+
 void main() {
   runApp(const MyApp());
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
