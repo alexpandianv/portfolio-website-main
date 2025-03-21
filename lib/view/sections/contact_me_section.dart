@@ -85,6 +85,7 @@ class _ContactMeSectionState extends State<ContactMeSection> {
                 ),
               ],
             ),
+            
             verticalSpaceMedium(),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
