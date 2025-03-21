@@ -34,10 +34,10 @@ class GradientTextWidget extends StatelessWidget {
         Color(0xFFa8ff78),
         Color(0xFF78ffd6),
       ],
-      style: TextStyles.style24extrabold.copyWith(
+      style: TextStyles.style20extrabold.copyWith(
         fontSize: fsize ??
             (width() < 600
-                ? 35
+                ? 30
                 : (width() < 950 ? width() * 0.04 : width() * 0.025)),
       ),
     );

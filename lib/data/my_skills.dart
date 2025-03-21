@@ -5,11 +5,6 @@ final List<Map<String, dynamic>> mySkills = [
     "image": 'assets/icons/flutter.png',
   },
   {
-    "percentage": 0.8,
-    "title": 'Dart',
-    "image": 'assets/icons/dart.png',
-  },
-  {
     "percentage": 0.6,
     "title": 'Firebase',
     "image": 'assets/icons/firebase.png',

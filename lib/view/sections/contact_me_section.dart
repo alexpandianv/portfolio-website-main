@@ -61,12 +61,12 @@ class _ContactMeSectionState extends State<ContactMeSection> {
                     BlendMode.srcIn,
                   ),
                 ),
-                horizontalSpaceMedium(),
+                horizontalSpaceSmall(),
                 Text(
                   "alexkingvengat@gmail.com",
-                  style: TextStyles.style24extrabold,
+                  style: TextStyles.style20extrabold,
                 ),
-                horizontalSpaceMedium(),
+                horizontalSpaceSmall(),
                 InkWell(
                   onTap: () {
                     Clipboard.setData(
@@ -97,12 +97,12 @@ class _ContactMeSectionState extends State<ContactMeSection> {
                     BlendMode.srcIn,
                   ),
                 ),
-                horizontalSpaceMedium(),
+                horizontalSpaceSmall(),
                 Text(
                   "+91 89409 39434",
-                  style: TextStyles.style24extrabold,
+                  style: TextStyles.style20extrabold,
                 ),
-                horizontalSpaceMedium(),
+                horizontalSpaceSmall(),
                 InkWell(
                   onTap: () {
                     Clipboard.setData(
