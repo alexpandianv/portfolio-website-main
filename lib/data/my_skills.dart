@@ -9,7 +9,6 @@ final List<Map<String, dynamic>> mySkills = [
     "title": 'Firebase',
     "image": 'assets/icons/firebase.png',
   },
-
   {
     "percentage": 0.9,
     "title": 'Git',
@@ -20,13 +19,13 @@ final List<Map<String, dynamic>> mySkills = [
     "title": 'Getx',
     "image": 'assets/icons/dart.png',
   },
-   {
+  {
     "percentage": 0.7,
     "title": 'Provider',
     "image": 'assets/icons/dart.png',
   },
-    {
-    "percentage": 0.5,
+  {
+    "percentage": 0.95,
     "title": 'Bloc',
     "image": 'assets/icons/bloc.png',
   },

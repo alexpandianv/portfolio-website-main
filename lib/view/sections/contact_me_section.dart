@@ -85,7 +85,6 @@ class _ContactMeSectionState extends State<ContactMeSection> {
                 ),
               ],
             ),
-            
             verticalSpaceMedium(),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -123,14 +122,14 @@ class _ContactMeSectionState extends State<ContactMeSection> {
             ),
             verticalSpace(0.1),
             Text(
-              "© 2025 All Rights Reserved by AlexCodeX",
+              "© 2026 All Rights Reserved by AlexCodeX",
               style: TextStyles.style16regular,
               textAlign: TextAlign.center,
             ),
             verticalSpace(0.02),
           ],
         )
-      
+
         //         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         //         children: [
         //           Container(
@@ -434,5 +433,4 @@ class _ContactMeSectionState extends State<ContactMeSection> {
         //       ),
         );
   }
-
 }
