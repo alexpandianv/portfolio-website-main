@@ -14,7 +14,7 @@ class DownloadCVButton extends StatelessWidget {
     return GestureDetector(
       onTap: () async {
         const url =
-            'https://drive.google.com/file/d/1G7O7s1Q40oLA666FdW1vsBVW5Kn_4e_n/view?usp=sharing';
+            'https://drive.google.com/file/d/1LPy4V3tKC9wetnDph3zTD2aHhpsfR16G/view?usp=sharing';
         if (await canLaunchUrl(Uri.parse(url))) {
           await launchUrl(Uri.parse(url));
         } else {

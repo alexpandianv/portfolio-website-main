@@ -1,5 +1,22 @@
 import 'package:porfolio/model/project_model.dart';
+
 List<Project> myProjects = [
+  Project(
+    title: 'The YDBG | Trust App',
+    subtitle: "Health & Fitness",
+    description:
+        'A habit-tracking and social accountability platform designed to build self-trust through measurable daily actions.Provides progress analytics, team interaction, journaling, and subscription-based premium features.',
+    imageUrl: 'assets/images/image.png',
+    projectUrl: '',
+    technologies: [
+      'Flutter',
+      'Dart',
+      'Razorpay',
+    ],
+    iosUrl: "https://apps.apple.com/us/app/the-ydbg-trust-app/id1489276659",
+    androidUrl:
+        "https://play.google.com/store/apps/details?id=com.balancegame.ydbg&hl=en_IN",
+  ),
   Project(
     title: 'Narasus Coffee',
     subtitle: "eCommerce App",
@@ -12,8 +29,10 @@ List<Project> myProjects = [
       'Dart',
       'Razorpay',
     ],
-    iosUrl: "https://apps.apple.com/in/app/narasus-coffee/id6590626140?platform=iphone",
-    androidUrl: "https://play.google.com/store/apps/details?id=com.ispider.narasuscoffee&hl=en_IN",
+    iosUrl:
+        "https://apps.apple.com/in/app/narasus-coffee/id6590626140?platform=iphone",
+    androidUrl:
+        "https://play.google.com/store/apps/details?id=com.ispider.narasuscoffee&hl=en_IN",
   ),
   Project(
     title: 'SpiderERP',
@@ -28,8 +47,10 @@ List<Project> myProjects = [
       'Firebase',
       'Google Maps',
     ],
-    iosUrl: "https://apps.apple.com/in/app/spidererp/id6476804010?platform=iphone",
-    androidUrl: "https://play.google.com/store/apps/details?id=com.ispider.erp&hl=en_IN",
+    iosUrl:
+        "https://apps.apple.com/in/app/spidererp/id6476804010?platform=iphone",
+    androidUrl:
+        "https://play.google.com/store/apps/details?id=com.ispider.erp&hl=en_IN",
   ),
   Project(
     title: 'iQspider',
@@ -43,15 +64,15 @@ List<Project> myProjects = [
       'Dart',
       'Firebase',
     ],
-    iosUrl: "https://apps.apple.com/in/app/iqspider/id6475626368?platform=iphone",
-    androidUrl: "https://play.google.com/store/apps/details?id=com.ispider.posinvoice&hl=en_IN",
+    iosUrl:
+        "https://apps.apple.com/in/app/iqspider/id6475626368?platform=iphone",
+    androidUrl:
+        "https://play.google.com/store/apps/details?id=com.ispider.posinvoice&hl=en_IN",
   ),
-  
   Project(
     title: 'Edifize Amenity',
     subtitle: "Amenity App",
-    description:
-        '',
+    description: '',
     imageUrl: 'assets/images/amenity.jpg',
     projectUrl: '',
     technologies: [
@@ -59,10 +80,11 @@ List<Project> myProjects = [
       'Dart',
       'Firebase',
     ],
-    iosUrl: "https://apps.apple.com/in/app/edifize-amenity/id6478753364?platform=iphone",
-    androidUrl: "https://play.google.com/store/apps/details?id=com.ispider.amenity&hl=en_IN",
+    iosUrl:
+        "https://apps.apple.com/in/app/edifize-amenity/id6478753364?platform=iphone",
+    androidUrl:
+        "https://play.google.com/store/apps/details?id=com.ispider.amenity&hl=en_IN",
   ),
-  
   Project(
     title: 'QR-Service',
     subtitle: "QR Tracking",
@@ -76,8 +98,10 @@ List<Project> myProjects = [
       'QR Code',
       'Barcode Scanning',
     ],
-    iosUrl: "https://apps.apple.com/in/app/qr-service/id6503185459?platform=iphone",
-    androidUrl: "https://play.google.com/store/apps/details?id=com.ispider.qrquality&hl=en_IN",
+    iosUrl:
+        "https://apps.apple.com/in/app/qr-service/id6503185459?platform=iphone",
+    androidUrl:
+        "https://play.google.com/store/apps/details?id=com.ispider.qrquality&hl=en_IN",
   ),
   Project(
     title: 'Amarnath SAJ',
@@ -91,12 +115,12 @@ List<Project> myProjects = [
       'Dart',
       'Razorpay',
     ],
-    iosUrl: "https://apps.apple.com/in/app/amarnath-saj/id6503139005?platform=iphone",
-    androidUrl: "https://play.google.com/store/apps/details?id=com.amarnathjewellery.amarnath_jewellery&hl=en_IN",
+    iosUrl:
+        "https://apps.apple.com/in/app/amarnath-saj/id6503139005?platform=iphone",
+    androidUrl:
+        "https://play.google.com/store/apps/details?id=com.amarnathjewellery.amarnath_jewellery&hl=en_IN",
   ),
 ];
-
-
 
 // List<Project> myProjects = [
 //   Project(
